@@ -22,7 +22,7 @@ async def run(bot, message):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     m = await bot.send_message(
-        text="<i>File Forwording Started😉 Join @World_MovieZz</i>",
+        text="<i>File Forwording Started😉 Join @filmykeedha</i>",
         reply_markup=reply_markup,
         chat_id=message.chat.id
     )
@@ -54,7 +54,7 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/world_MovieZz')
+        InlineKeyboardButton('📜 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Filmykeedha')
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
