@@ -9,9 +9,9 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/World_MoViezZ",
-  "website": "https://github.com/kpsabith/File-Auto-Forword-Bot",
-  "repository": "https://github.com/kpsabith/File-Auto-Forword-Bot",
+  "success_url": "https://t.me/Filmykeedha",
+  "website": "https://github.com/patelboss/File-Auto-Forword-Bot",
+  "repository": "https://github.com/patelboss/File-Auto-Forword-Bot",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGXBot",
