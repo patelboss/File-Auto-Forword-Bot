@@ -1,11 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) Dark Angel
-
-import os
+import re, os
 import logging
 
-class Config:
+id_pattern = re.compile(r'^.\d+$')
     
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH")
