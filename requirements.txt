@@ -20,8 +20,6 @@ asyncio
 typing
 motor==2.5.1
 marshmallow==3.14.1
-requests
 bs4
 pynewtonmath
 python-dotenv==0.19.0
-re
