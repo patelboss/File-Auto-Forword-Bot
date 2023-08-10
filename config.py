@@ -1,33 +1,33 @@
-import re, os
+import os
 import logging
 
 id_pattern = re.compile(r'^.\d+$')
-    
-    API_ID = os.environ.get("API_ID", "")
 
-    API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "")
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+API_ID = os.environ.get("API_ID", "")
 
-    BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-    CAPTION = os.environ.get("CAPTION", "")
+BOT_SESSION = os.environ.get("BOT_SESSION", "bot")
 
-    FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
+CAPTION = os.environ.get("CAPTION", "")
 
-    FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
+FROM_CHANNEL = os.environ.get("FROM_CHANNEL", None)
 
-    OWNER_ID = os.environ.get("OWNER_ID", "")
+FILTER_TYPE = os.environ.get("FILTER_TYPE", "")
 
-    LIMIT = os.environ.get("LIMIT", "2500000")
+OWNER_ID = os.environ.get("OWNER_ID", "")
 
-    SKIP_NO = os.environ.get("SKIP_NO", "0")
+LIMIT = os.environ.get("LIMIT", "2500000")
 
-    SESSION = os.environ.get("SESSION")
+SKIP_NO = os.environ.get("SKIP_NO", "0")
 
-    TO_CHANNEL = os.environ.get("TO_CHANNEL", "")
+SESSION = os.environ.get("SESSION")
 
-    PORT = os.environ.get("PORT", "8080")
+TO_CHANNEL = os.environ.get("TO_CHANNEL", "")
+
+PORT = os.environ.get("PORT", "8080")
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
