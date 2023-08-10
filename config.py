@@ -19,5 +19,6 @@ class Config:
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
     SESSION = os.environ.get("SESSION")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", 12345))
+    PORT = os.environ.get("PORT", "8080")
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
