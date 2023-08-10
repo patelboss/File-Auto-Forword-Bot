@@ -3,7 +3,7 @@
 # (c) Dark Angel
 
 import os
-from config import Config
+from config import API_ID, API_HASH, BOT_TOKEN, PORT, FROM_CHAMNEL, TO_CHANNEL, SESSION, OWNER_ID
 from translation import Translation
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
