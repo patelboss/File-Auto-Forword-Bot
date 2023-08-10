@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 
 from pyrogram.errors import FloodWait
 
-from config import Config
+from config import API_ID, API_HASH, BOT_TOKEN, PORT, FROM_CHAMNEL, TO_CHANNEL, SESSION, OWNER_ID, SKIP_NO, BOT_SESSION, CAPTION, FILTER_TYPE, LIMIT
 
 from translation import Translation
 
