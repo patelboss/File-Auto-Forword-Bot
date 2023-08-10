@@ -1,7 +1,7 @@
 import os
 import logging
 
-class Config:
+
 
       API_HASH = os.environ.get("API_HASH", "")
 
