@@ -1,7 +1,6 @@
 import os
 import logging
 
-id_pattern = re.compile(r'^.\d+$')
 
 API_HASH = os.environ.get("API_HASH", "")
 
