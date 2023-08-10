@@ -24,7 +24,7 @@ More details /help</i>"""
   ABOUT_TXT = """<b><u>My Info</b></u>
 
 <b>Name :</b> <code>Auto File Forword Bot</code>
-<b>Credit :</b> <cod>@Filmykeedha & PANKAJ</code>
+<b>Credit :</b> <code>@Filmykeedha & PANKAJ</code>
 <b>Language :</b> <code>Python3</code>
 <b>Lybrary :</b> <code>Pyrogram v1.2.9</code>
 <b>Server :</b> <code>Heroku</code>
