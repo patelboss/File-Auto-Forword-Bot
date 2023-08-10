@@ -13,12 +13,6 @@ logging.basicConfig(level=logging.INFO,
 # Log when the bot starts
 logging.info("Bot started. Listening for commands and messages...")
 
-def start_command(update, context):
-    update.reply_text("Hello! I'm your IMDb bot. Send me {text} to search on IMDb.")
-
-@Client.on_message(filters.command("start"))
-def start(client, message):
-    start_command(message, None)
 
 @Client.on_message(filters.text)
 def reply_to_text(client, message):
@@ -55,6 +49,3 @@ def reply_to_text(client, message):
             # No search results found, send a message indicating no queries are related
             client.send_message(chat_id=message.chat.id, text=f"No Queries Related {search_text}")
 
-@Client.on_message(filters.command("help"))
-def help_command(update, context):
-    update.reply_text("Send me a message containing text between $ and & to search on IMDb.")
