@@ -3,7 +3,7 @@ from config import Config
 
 class Translation(object):
   START_TXT = """<b>Hai {}!!</b>
-<i>I'm Simple Auto file Forward Bot
+<i>I'm Simple Auto file Forward & IMDb Search Bot
 This Bot forward all files to One Public channel to Your Personal channel
 More details /help</i>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
@@ -12,7 +12,7 @@ More details /help</i>"""
 <b>• Then give admin permission in your personal telegram channel</b>
 <b>• Then send any message In your personal telegram channel</b>
 <b>• Then use /run command in your bot</b>
-
+<b>◉ I can search IMDb Just in a second. wanna try just type: $<Movie Name>&</b>
 <b>@filmykeedha</b>
 
 <b><u>Available Command</b></u>
@@ -26,6 +26,7 @@ More details /help</i>"""
 <b>Name :</b> <code>Auto File Forword Bot</code>
 <b>Credit :</b> <code>@Filmykeedha & PANKAJ</code>
 <b>Language :</b> <code>Python3</code>
-<b>Lybrary :</b> <code>Pyrogram v1.2.9</code>
+<b>Library :</b> <code>Pyrogram v1.2.9</code>
 <b>Server :</b> <code>Heroku</code>
 <b>Build :</b><code>V0.1</code>"""
+  
